@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+box-sizing: border-box;
+}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/home/student/Desktop/hekima_works/pexels-josh-hild-1270765-14268977.jpg);
+  background-origin: padding-box;
+  background-size: 100%;
+}
+
+.header {
+  position: relative;
+  top: -6px;
+  overflow: hidden;
+  background-image: url(/home/student/Downloads/pexels-sevenstormphotography-891030.jpg);
+  padding: 20px 10px;
+  border-radius: 40px;  
+  
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 40px;
+  margin: 2px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+}
+.footer{
+position: fixed;
+left: 0;
+bottom: 0;
+text-transform: capitalize; 
+display: inline;
+background-color: #f3f3f3;
+font-weight: 600;
+font-family: gerevonda;
+border-radius: 40px;
+
+
+
+}
+</style>
+</head>
+<body>
+<div style="padding-left:20px; background-size:100%; background-origin:padding-box; font-weight: 600;text-transform: uppercase; border-radius:40px;">
+  <h1 style="text-align: center;">welcome in my portifolio</h1>
+</div>
+<div class="header">
+  <a href="#default" class="logo">personal portifolio</a>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact" class="active">Contact</a>
+    <a href="#about" class="active">About</a>
+    <a href="#skills" class="active">skills</a>
+    <a href="#expirience" class="active">expirience</a>
+</div>
+<div class="footer">
+<footer>
+<span class="word">&copy2025 by crarist master</span>
+</footer>
+</div>
+</body>
+</html>
